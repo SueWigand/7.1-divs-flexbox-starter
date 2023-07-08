@@ -113,6 +113,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+  background: rgb(112, 212, 207);
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,15 +121,26 @@ body {
   display: flex;
   width: 30%;
   justify-content: center;
-  align-items: center;
-  color: lightcyan;
+  align-items: flex-start;
+  color: darkslategray;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: teal;
+  font-size: 1.2em;
+  background-color: rgb(112, 212, 207);
   height: 300px;
+  border-right-style: double;
+  border-color: teal;
+  border-width: 0.3em;
 }
 
+.div-1 {
+    border-left-style: double;
+    border-color: teal;
+    border-width: 0.3em;
+}
 
+.div-2 {
+    align-items: center;
+}
 
 
 /* ==========================================================================
